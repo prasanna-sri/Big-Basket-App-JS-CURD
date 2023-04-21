@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <script async src="../bootstrap/js/bootstrap.bundle.js"></script>
+    <link href="../bootstrap/icons/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="../styles/styles.css" rel="stylesheet" />
+    <title>Add Product</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm">
+        <div class="container">
+          <a class="nav-link text-white me-4" ><i class="bi bi-cart fw-bold"></i> Big Basket</a>
+
+        
+        <ul class="navbar-nav me-4">
+          <li class="nav-item">
+            <a href="../index.html" class="nav-link text-light">Home</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav me-auto me-2">
+          <li class="nav-item">
+            <a href="./displayProducts.html" class="nav-link text-light">Products</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav ms-auto">
+          <li>
+            <a href="./adminProduct.html" class="nav-link text-light">Admin</a>
+          </li>
+        </ul>
+        </div>
+      </nav>
+
+      <div class="container mt-3">
+        <div class="row">
+         <div class="col">
+         <p class="h3 text-success">Create New Product</p>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi in sapiente numquam tempore
+              eum quod. Veniam, ipsa. </p>
+         </div>
+       </div>
+     </div>
+
+<section class="mt-3">
+     <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+               <form id="add-contact-form">
+                <fieldset>
+                    <legend>New Product</legend>
+                 <div class="mb-2">
+                    <input class="form-control" id="name-input" placeholder="Name" required type="text">
+                 </div>
+                 <div class="mb-2">
+                    <input class="form-control" id="image-input" placeholder="Image Url" required type="text">
+                 </div>
+                 <div class="mb-2">
+                    <input class="form-control" id="price-input" placeholder="Price" required type="number">
+                 </div>
+                 <div class="mb-2">
+                    <input class="form-control" id="quantity-input" placeholder="Quantity" required type="number">
+                 </div>
+                 <div class="mb-2">
+                    <select class="form-control" id="category-input">
+                   
+                    </select>
+                 </div>
+                 <div class="mb-2">
+                    <textarea class="form-control" id="description-input" placeholder="Description" required ></textarea>
+                 </div>
+
+                 <input class="btn btn-success shadow-lg" id="btn-create"  value="Submit" type="submit">
+                 <a class="btn btn-dark" href="../pages/adminProduct.html">Cancel</a>
+                 </fieldset>
+               </form>
+            </div>
+            <div>
+              <img  alt = "" class= "img-fluid" id="display-image" src ="" >
+            </div>
+        </div>
+     </div>
+</section>
+     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+     <script src="../scripts/addProduct.js" type="module"></script>
+</body>
+</html>

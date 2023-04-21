@@ -1,0 +1,66 @@
+{
+  "products": [
+    {
+      "name": "Onions",
+      "imageUrl": "https://www.bigbasket.com/media/uploads/p/l/10000150_19-fresho-onion.jpg",
+      "price": "120",
+      "quantity": "40",
+      "description": "Onions are known to be rich in biotin. Most of the flavonoids which are known as anti-oxidants are concentrated more in the outer layers, so when you peel off the layers, you should remove as little as possible",
+      "categoryId": "2",
+      "id": "UyEDV5Yds"
+    },
+    {
+      "name": "Carrots ",
+      "imageUrl": "https://www.bigbasket.com/media/uploads/p/l/10000071_14-fresho-carrot-orange.jpg",
+      "price": "95",
+      "quantity": "20",
+      "description": "A popular sweet-tasting root vegetable, Carrots are narrow and cone shaped",
+      "categoryId": "2",
+      "id": "C4EDV7UD"
+    },
+    {
+      "name": "Apples",
+      "imageUrl": "https://media.istockphoto.com/id/622795204/photo/red-delicious-apples.jpg?s=612x612&w=0&k=20&c=-uu4u0m62t1nz3kcOVkallOgSWoOj_KtcVTCIlyfpXY=",
+      "price": "100",
+      "quantity": "25",
+      "categoryId": "",
+      "description": "Our apple is a round fruit with red or green skin and a whitish inside. This variety of apple might be sweet and sour. ",
+      "id": "tSXIeqA"
+    },
+    {
+      "name": "Grapes",
+      "imageUrl": "https://cdn2.stylecraze.com/wp-content/uploads/2014/07/Is-It-True-That-Eating-Too-Many-Grapes-Causes-Side-Effects.jpg",
+      "price": "45",
+      "quantity": "5",
+      "categoryId": "1",
+      "description": "Grapes are fleshy, rounded fruits that grow in clusters made up of many fruits of greenish, yellowish or purple skin. ",
+      "id": "VrqCvyE"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Fruits"
+    },
+    {
+      "id": "2",
+      "name": "Vegetables"
+    },
+    {
+      "id": "3",
+      "name": "Beverages"
+    },
+    {
+      "id": "4",
+      "name": "Bakery"
+    },
+    {
+      "id": "5",
+      "name": "Snakes"
+    },
+    {
+      "id": "6",
+      "name": "Beauty"
+    }
+  ]
+}
